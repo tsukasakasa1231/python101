@@ -13,7 +13,7 @@ for i in range(0,mnk[0]):
             times+=1
     rate[i]=sum(B[i])-times*mnk[2]
     times=0
-    if rate[i]>=one:
+    if rate[i]>=rate[one]:
         three = two
         two = one
         one=i+1
